@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: argocd-flask-demo
+  namespace: default
   labels:
     app: argocd-flask-demo
 spec:
